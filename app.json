@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "seupet",
+    "slug": "seupet",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "seupet"
+}
