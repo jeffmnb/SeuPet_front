@@ -1,10 +1,30 @@
 {
   "expo": {
     "name": "seupet",
+    "icon": "./src/assets/Icon.png",
     "slug": "seupet",
     "version": "1.0.0",
+    "splash": {
+      "image": "./src/assets/Splash.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.seupet",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.seupet",
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
     ]
   },
   "name": "seupet"
