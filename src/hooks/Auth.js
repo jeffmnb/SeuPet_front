@@ -95,8 +95,6 @@ export const AuthProvider = ({ children }) => {
 
             if (response.data.user) {
 
-                //console.log('Dados do servidor: ', response.data.user);
-
                 setUser(response.data.user);
 
                 userDataStoraged = response.data.user;
