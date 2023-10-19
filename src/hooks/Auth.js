@@ -7,7 +7,7 @@ import { Alert, Appearance } from "react-native";
 
 export const AuthContext = createContext({});
 
-export let userDataStoraged; // DADOS DO USUARIO SALVO NO STORAGE;
+export let userDataStoraged;
 
 export let allPets = []; //DADOS BUSCANDO DE TODOS OS PETS
 
